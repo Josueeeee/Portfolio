@@ -123,16 +123,12 @@
   .header__socials {
     display: none;
   }
-}
-@media (max-width: 368px) {
-  .containerphoto {
-    width: 19rem;
-    height: 19rem;
+  .btn2 {
+    margin: 0.1rem;
   }
-}
-@media (max-width: 338px) {
   .containerphoto {
     width: 19rem;
     height: 19rem;
+    bottom: 3%;
   }
 }

@@ -70,6 +70,7 @@
 /* Buttoms Home */
 
 .Buttoms button {
+  margin-top: 1rem;
   background-color: rgb(5, 184, 184);
 }
 .Buttoms button:hover {
