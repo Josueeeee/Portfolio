@@ -40,13 +40,13 @@
   width: 200px;
   height: 200px;
   position: relative;
-  transition: all 0s;
   transform-style: preserve-3d;
   transform: rotateY(-20deg);
 }
 
 .cubo:hover {
   transform: rotateX(360deg);
+  transition: 10s;
 }
 .cara {
   width: 100%;
@@ -105,13 +105,14 @@ h1 {
 .cuboCSS {
   width: 100%;
   height: 100%;
-  transition: all 20s;
+
   transform-style: preserve-3d;
   transform: rotateY(-20deg);
 }
 
 .cuboCSS:hover {
   transform: rotateX(360deg);
+  transition: 10s;
 }
 
 /* logo HTML */
@@ -128,12 +129,13 @@ h1 {
 .cuboHTML {
   width: 100%;
   height: 100%;
-  transition: all 20s;
+
   transform-style: preserve-3d;
   transform: rotateY(-20deg);
 }
 .cuboHTML:hover {
   transform: rotateX(360deg);
+  transition: 10s;
 }
 
 /* LOGO de react */
@@ -151,12 +153,13 @@ h1 {
 .cuboREACT {
   width: 100%;
   height: 100%;
-  transition: all 20s;
+
   transform-style: preserve-3d;
   transform: rotateY(-20deg);
 }
 .cuboREACT:hover {
   transform: rotateX(360deg);
+  transition: 10s;
 }
 
 /*LOGO NODEJS */
@@ -174,12 +177,12 @@ h1 {
 .cuboNODEJS {
   width: 100%;
   height: 100%;
-  transition: all 20s;
   transform-style: preserve-3d;
   transform: rotateY(-20deg);
 }
 .cuboNODEJS:hover {
   transform: rotateX(360deg);
+  transition: 10s;
 }
 
 @-webkit-keyframes bounce-down {

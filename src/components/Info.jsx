@@ -15,8 +15,8 @@ const Info = () => {
                     <p><b>Desarrollodor FullStacks</b> </p>
 
                     <div className='Buttoms'>
-                        <button className='btn1'>DESCARGAR CV</button>
-                        <button className='btn2'>Contactar</button>
+                        <a className='btn1' download="JeffRamirez" href="../documents/JosueRamirez.pdf" >DESCARGAR CV</a>
+                        <a className='btn2'>Contactar</a>
                     </div>
                 </div>
                 <div className="header__socials">
