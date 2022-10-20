@@ -1,0 +1,7 @@
+export { default as css } from './css.png'
+export { default as html } from './HTML.png'
+export { default as react } from './react.png'
+export { default as boostrap } from './Boostrap.png'
+export { default as git } from './Github.png'
+export { default as js } from './js.png'
+export { default as node } from './NodeJS.png'

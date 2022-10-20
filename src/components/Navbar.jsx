@@ -25,7 +25,7 @@ const Navbar = () => {
             </div>
             <nav className="navMenu">
                 <a href="#">Home</a>
-                <a href="#">Blog</a>
+                <a href="#">blog</a>
                 <a href="#">Work</a>
                 <a href="#">About</a>
                 <a href="#">Contact</a>

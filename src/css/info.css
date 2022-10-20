@@ -74,8 +74,8 @@
 .Buttoms a {
   cursor: pointer;
   background-color: rgb(5, 184, 184);
-  padding: 3px;
-  border-radius: 3px;
+  padding: 0.5rem;
+  border-radius: 5px;
   color: white;
 }
 .Buttoms a:hover {
@@ -84,4 +84,9 @@
 }
 .btn2 {
   margin-left: 1rem;
+}
+
+/* SKILLS CONTAINER */
+.skillContainer img {
+  width: 100px;
 }

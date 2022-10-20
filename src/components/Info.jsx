@@ -1,6 +1,7 @@
 import React from 'react';
 import photo from "../imgs/mi.png"
 import { SkillsInfo } from '../components'
+import pdf from '../documents/jeff.pdf'
 const Info = () => {
     return (
         <>
@@ -15,7 +16,7 @@ const Info = () => {
                     <p><b>Desarrollodor FullStacks</b> </p>
 
                     <div className='Buttoms'>
-                        <a className='btn1' download="JeffRamirez" href="../documents/JosueRamirez.pdf" >DESCARGAR CV</a>
+                        <a className='btn1' download="Jeffrey-Josue-Ramirez" href={pdf} >DESCARGAR CV</a>
                         <a className='btn2'>Contactar</a>
                     </div>
                 </div>
